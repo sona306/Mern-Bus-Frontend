@@ -65,8 +65,13 @@ const Signup = () => {
                             <input type="password" className="form-control" name='confirm' value={signup.confirm} onChange={inputHandler} />
                         </div>
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6"><br></br>
-                            <button className="btn btn-primary" onClick={readValue}>SignIn</button>
+                            <button className="btn btn-primary" onClick={readValue}>Register</button>
                         </div>
+                        <div className="col col-12 col-sm-12 md-12 col-lg-12 col-xl-12 col-xxl-12"><br></br>
+                        <a href="/">
+                        <button className="btn btn-info" onClick={readValue}>SignIn Now</button><br></br><br></br>
+                        </a>
+                            </div>
                     </div>
                 </div>
             </div>
